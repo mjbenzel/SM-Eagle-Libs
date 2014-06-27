@@ -738,7 +738,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="Red" constant="no"/>
-<attribute name="MANUFACTOR" value="OptoFlash" constant="no"/>
+<attribute name="MANUFACTURER" value="OptoFlash" constant="no"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)" constant="no"/>
 <attribute name="TME" value="SMD2012R" constant="no"/>
 </technology>
@@ -752,7 +752,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="Yellow" constant="no"/>
-<attribute name="MANUFACTOR" value="OptoFlash" constant="no"/>
+<attribute name="MANUFACTURER" value="OptoFlash" constant="no"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)" constant="no"/>
 <attribute name="TME" value="SMD2012Y" constant="no"/>
 </technology>
@@ -766,7 +766,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="Blue" constant="no"/>
-<attribute name="MANUFACTOR" value="OptoFlash" constant="no"/>
+<attribute name="MANUFACTURER" value="OptoFlash" constant="no"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)" constant="no"/>
 <attribute name="TME" value="SMD2012B" constant="no"/>
 </technology>
@@ -780,7 +780,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="Green" constant="no"/>
-<attribute name="MANUFACTOR" value="OptoFlash" constant="no"/>
+<attribute name="MANUFACTURER" value="OptoFlash" constant="no"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)" constant="no"/>
 <attribute name="TME" value="SMD2012G" constant="no"/>
 </technology>
@@ -921,7 +921,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="IR-950nm" constant="no"/>
-<attribute name="MANUFACTOR" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay" constant="no"/>
 <attribute name="PACKAGE" value="5mm" constant="no"/>
 <attribute name="TME" value="CQY99" constant="no"/>
 </technology>
@@ -944,7 +944,7 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="Red/Green" constant="no"/>
-<attribute name="MANUFACTOR" value="Optosupply" constant="no"/>
+<attribute name="MANUFACTURER" value="Optosupply" constant="no"/>
 <attribute name="PACKAGE" value="3mm" constant="no"/>
 <attribute name="TME" value="OSRG3131A" constant="no"/>
 </technology>

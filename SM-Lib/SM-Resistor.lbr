@@ -135,7 +135,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08051K00FKTABC"/>
@@ -152,7 +152,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080510K0FKTABC"/>
@@ -169,7 +169,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW0805100KFKTABC"/>
@@ -186,7 +186,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08051K50FKTABC"/>
@@ -203,7 +203,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080539K0FKTABC"/>
@@ -220,7 +220,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080582R0FKTABC"/>
@@ -237,7 +237,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080220R5FKTABC"/>
@@ -254,7 +254,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08054K70FKTABC"/>
@@ -271,7 +271,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080556K0FKTABC"/>
@@ -288,7 +288,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="200 ppm/K"/>
 <attribute name="TME" value="CRCW080515K0JNTABC"/>
@@ -305,7 +305,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="200 ppm/K"/>
 <attribute name="TME" value="CRCW080533R0JNTABC"/>
@@ -322,7 +322,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08052K20FKTABC"/>
@@ -339,7 +339,7 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080549R9FKTABC"/>
@@ -364,8 +364,8 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="SRPassives"/>
-<attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="MANUFACTURER" value="SRPassives"/>
+<attribute name="PACKAGE" value="7mm"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CF1/4W10K"/>
 <attribute name="TOLERANCE" value="1%"/>
@@ -381,8 +381,8 @@ type 0207, grid 7.5 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTOR" value="SRPassives"/>
-<attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="MANUFACTURER" value="SRPassives"/>
+<attribute name="PACKAGE" value="7mm"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CF1/4W10K"/>
 <attribute name="TOLERANCE" value="1%"/>

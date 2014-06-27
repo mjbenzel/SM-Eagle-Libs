@@ -135,7 +135,7 @@
 <gate name="G$1" symbol="LRD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LDR07" package="4MM">
+<device name="" package="4MM">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
