@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -81,7 +81,7 @@
 <wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1" x2="-2" y2="1" width="0.127" layer="21"/>
 </package>
-<package name="THT-5MM-LED">
+<package name="THT-5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -197,6 +197,22 @@
 <wire x1="-12" y1="1" x2="-12" y2="5" width="0.127" layer="21"/>
 <text x="-12.5" y="-5" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="15" y="-5" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="THT-3MM-BICOLOR">
+<pad name="GA" x="-2.54" y="0" drill="1" shape="square"/>
+<pad name="C" x="0" y="0" drill="1"/>
+<pad name="RA" x="2.54" y="0" drill="1"/>
+<wire x1="-4" y1="2" x2="-4" y2="-2" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2" x2="4" y2="-2" width="0.127" layer="21"/>
+<wire x1="4" y1="-2" x2="4" y2="2" width="0.127" layer="21"/>
+<wire x1="4" y1="2" x2="-4" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0" x2="0" y2="1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.5" y1="0" x2="0" y2="-1.5" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.5" x2="1.25" y2="0.875" width="0.127" layer="21" curve="-55.00798"/>
+<wire x1="0" y1="-1.5" x2="1.25" y2="-0.75" width="0.127" layer="21" curve="59.036243"/>
+<wire x1="1.25" y1="0.875" x2="1.25" y2="-0.75" width="0.127" layer="21"/>
+<text x="-4" y="2.25" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-4" y="-3" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -683,6 +699,30 @@
 <text x="-10.16" y="-10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="40.64" y="-10.16" size="1.27" layer="96" align="bottom-right">&gt;VALUE</text>
 </symbol>
+<symbol name="BICOLOR-CC">
+<pin name="GA" x="-7.62" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="C" x="7.62" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="3.175" x2="0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="3.175" x2="0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0.635" y="0"/>
+<vertex x="-0.635" y="0.635"/>
+<vertex x="-0.635" y="-0.635"/>
+</polygon>
+<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="94"/>
+<pin name="RA" x="-7.62" y="2.54" visible="pad" length="middle" direction="in"/>
+<wire x1="-0.635" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SMD2012" prefix="LED" uservalue="yes">
@@ -839,7 +879,7 @@
 </devices>
 </deviceset>
 <deviceset name="LNBP010X/X-CC" prefix="D" uservalue="yes">
-<description>10-LED duo color LED bar</description>
+<description>10-LED common cathode LED bar duo color</description>
 <gates>
 <gate name="G$1" symbol="LN-BP010HR/G-CC" x="-20.32" y="0"/>
 </gates>
@@ -863,6 +903,50 @@
 <technology name="">
 <attribute name="COLOR" value="Hi-Red / Green" constant="no"/>
 <attribute name="TME-ID" value="LN-BP010HR/G-CC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CQY99" prefix="LED" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THT-5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="IR-950nm" constant="no"/>
+<attribute name="MANUFACTOR" value="Vishay" constant="no"/>
+<attribute name="PACKAGE" value="5mm" constant="no"/>
+<attribute name="TME" value="CQY99" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSRG3131A" prefix="LED" uservalue="yes">
+<description>BI-Color common cathode LED 3mm</description>
+<gates>
+<gate name="G$1" symbol="BICOLOR-CC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THT-3MM-BICOLOR">
+<connects>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="GA" pad="GA"/>
+<connect gate="G$1" pin="RA" pad="RA"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Red/Green" constant="no"/>
+<attribute name="MANUFACTOR" value="Optosupply" constant="no"/>
+<attribute name="PACKAGE" value="3mm" constant="no"/>
+<attribute name="TME" value="OSRG3131A" constant="no"/>
 </technology>
 </technologies>
 </device>
