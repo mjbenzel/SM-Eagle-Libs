@@ -137,11 +137,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08051K00FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="1 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -154,11 +154,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080510K0FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="10 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -171,11 +171,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW0805100KFKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="100 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -188,11 +188,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08051K50FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="1.5 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -205,11 +205,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080539K0FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="39 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -222,11 +222,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080582R0FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="82 Ω"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -239,11 +239,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080220R5FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="220 Ω"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -256,11 +256,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08054K70FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="4.7 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -273,11 +273,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080556K0FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="56 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -290,11 +290,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="200 ppm/K"/>
 <attribute name="TME" value="CRCW080515K0JNTABC"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="15 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -307,11 +307,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="200 ppm/K"/>
 <attribute name="TME" value="CRCW080533R0JNTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="33 Ω"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -324,11 +324,11 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW08052K20FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="2.2 kΩ"/>
-<attribute name="WATT" value="0.125"/>
 </technology>
 </technologies>
 </device>
@@ -341,11 +341,45 @@ type 0207, grid 7.5 mm</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Vishay"/>
 <attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="100 ppm/K"/>
 <attribute name="TME" value="CRCW080549R9FKTABC"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="49.9 Ω"/>
-<attribute name="WATT" value="0.125"/>
+</technology>
+</technologies>
+</device>
+<device name="270RFKTABC" package="SMD-2012(0805)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
+<attribute name="TCR" value="100 ppm/K"/>
+<attribute name="TME" value="CRCW0805270RFKTABC"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="270 Ω"/>
+</technology>
+</technologies>
+</device>
+<device name="680RFKTABC" package="SMD-2012(0805)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
+<attribute name="TCR" value="100 ppm/K"/>
+<attribute name="TME" value="CRCW0805680RFKTABC"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="680 Ω"/>
 </technology>
 </technologies>
 </device>
