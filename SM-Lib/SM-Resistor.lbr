@@ -310,7 +310,7 @@ type 0207, grid 7.5 mm</description>
 <attribute name="POWER" value="0.125 W"/>
 <attribute name="TCR" value="200 ppm/K"/>
 <attribute name="TME" value="CRCW080533R0JNTABC"/>
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="5%"/>
 <attribute name="VALUE" value="33 Ω"/>
 </technology>
 </technologies>

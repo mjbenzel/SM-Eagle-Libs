@@ -181,7 +181,15 @@
 <connect gate="G$1" pin="SOURCE" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CURRENT" value="30 A"/>
+<attribute name="MANUFACTOR" value="ST Microelectronics"/>
+<attribute name="PACKAGE" value="TO-220"/>
+<attribute name="POWER" value="70W"/>
+<attribute name="TME" value="STP36NF06L"/>
+<attribute name="TYPE" value="N-unipolar"/>
+<attribute name="VOLT" value="60"/>
+</technology>
 </technologies>
 </device>
 <device name="-S" package="TO-220-STANDING">
