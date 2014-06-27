@@ -383,6 +383,23 @@ type 0207, grid 7.5 mm</description>
 </technology>
 </technologies>
 </device>
+<device name="470RFKTABC" package="SMD-2012(0805)">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTOR" value="Vishay"/>
+<attribute name="PACKAGE" value="SMD-2012(0805)"/>
+<attribute name="POWER" value="0.125 W"/>
+<attribute name="TCR" value="100 ppm/K"/>
+<attribute name="TME" value="CRCW0805470RFKTABC"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="470 Ω"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CF1/4W" prefix="R">
