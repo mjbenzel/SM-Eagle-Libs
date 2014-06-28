@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -466,6 +466,18 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <hole x="0" y="15" drill="4"/>
 <circle x="0" y="15" radius="2.549509375" width="0.127" layer="25"/>
 </package>
+<package name="3216(1206)-4">
+<smd name="1" x="-1.5" y="0.775" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="1.5" y="0.775" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="-1.5" y="-0.625" dx="1.5" dy="1" layer="1"/>
+<smd name="4" x="1.5" y="-0.625" dx="1.5" dy="1" layer="1"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="-2.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-2.5" y="1.75" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-2.5" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SOT-23/5">
@@ -737,6 +749,18 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <circle x="0" y="10.16" radius="1.27" width="0.254" layer="94"/>
 <text x="5.08" y="-2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="5.08" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="3216X4">
+<pin name="P$1" x="-7.62" y="2.54" visible="pad" length="middle"/>
+<pin name="P$2" x="7.62" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="-7.62" y="-2.54" visible="pad" length="middle"/>
+<pin name="P$4" x="7.62" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.588" size="0.8128" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.604" size="0.8128" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1065,6 +1089,24 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3216(1206)-4" prefix="P">
+<gates>
+<gate name="G$1" symbol="3216X4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3216(1206)-4">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
